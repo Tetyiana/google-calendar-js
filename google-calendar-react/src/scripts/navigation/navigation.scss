@@ -1,0 +1,17 @@
+.navigation {
+  margin-left: 32px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+
+  &__today-btn {
+    width: 80px;
+    border-radius: 0;
+  }
+
+  &__displayed-month {
+    margin-left: 32px;
+  }
+}

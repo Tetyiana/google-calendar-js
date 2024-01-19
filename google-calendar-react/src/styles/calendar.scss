@@ -1,0 +1,34 @@
+// стили сетки календаря и заголовка календаря с днями недели
+.tr-gorizont {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.day-weeks {
+  display: block;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 11vw;
+}
+
+.clock-td {
+  width: 12vw;
+}
+
+.clock-day {
+  display: block;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 11vw;
+  border-color: darkgray;
+}
+
+.calendar__time-scale {
+  width: 11vw;
+
+  display: flex;
+  flex-direction: column;
+}

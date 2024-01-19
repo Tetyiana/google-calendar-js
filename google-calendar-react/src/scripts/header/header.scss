@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 16px;
+  border-color: lightgrey;
+
+}
+
+.line {
+  color: lightgrey;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.create-event-btn {
+  margin-left: 200px;
+  width: 100px;
+  border-radius: 16px;
+
+  &__icon {
+    margin-right: 8px;
+  }
+}
+
+.fa-chevron-left {
+  margin-left: 24px;
+}

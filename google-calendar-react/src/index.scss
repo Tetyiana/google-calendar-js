@@ -1,0 +1,23 @@
+@import './styles/page.scss';
+@import './styles/common.scss';
+@import './styles/calendar.scss';
+@import './styles/create-event.scss';
+@import './styles/event.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+page {
+  height: 100%;
+}
+
+calendar {
+  display: flex;
+  flex-direction: row;
+}

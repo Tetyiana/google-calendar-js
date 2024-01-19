@@ -1,0 +1,18 @@
+.calendar__header {
+  display: flex;
+  width: vw;
+
+  &-day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+  }
+
+  &-time {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 9vw;
+  }
+}
